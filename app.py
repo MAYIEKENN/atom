@@ -10,7 +10,7 @@ CLAIM_URL = "https://store.atom.com.mm/mytmapi/v1/my/point-system/claim"
 DASHBOARD_URL = "https://store.atom.com.mm/mytmapi/v1/my/dashboard"
 
 # Backup file
-BACKUP_FILE = "/storage/emulated/0/MySrc/mytel/backup.json"
+BACKUP_FILE = "backup.json"
 
 COMMON_HEADERS = {
     "User-Agent": "MyTM/4.11.0/Android/30",
