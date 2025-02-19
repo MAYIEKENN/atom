@@ -117,7 +117,7 @@ async def send_dashboard_request(session, item):
         async with session.get(DASHBOARD_URL, params=params, headers=headers) as response:
             response_text = await response.text()
             status = "Success" if response.status == 200 else "Failed"
-            print(f"[Dashboard] {item['phone']}: {status} - Response: {response_text}")
+            print(f"[Dashboard] {item['phone']}: {status} ")
     except Exception as e:
         print(f"[Dashboard] Error for {item['phone']}: {str(e)}")
 
